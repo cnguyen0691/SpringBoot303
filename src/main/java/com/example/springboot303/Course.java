@@ -22,7 +22,7 @@ public class Course {
     private String instructor;
 
     @NotNull
-    @Size(min=10)
+    @Size(min=3)
     private String description;
 
 //    @NotNull
